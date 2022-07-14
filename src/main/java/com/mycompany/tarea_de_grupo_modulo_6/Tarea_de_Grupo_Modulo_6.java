@@ -18,8 +18,12 @@ public class Tarea_de_Grupo_Modulo_6 {
         Doctor doctor = new Doctor();
         Deportista deportista = new Deportista();
         
+        System.out.println(doctor.obtenerInformacionPersona());
         doctor.imprimirInformacion();
+        
+        
+        System.out.println(deportista.obtenerInformacionPersona());
         deportista.imprimirInformacion();
-        System.out.println("Hello World!");
+        
     }
 }
