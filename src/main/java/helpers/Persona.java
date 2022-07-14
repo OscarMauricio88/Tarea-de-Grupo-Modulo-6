@@ -58,4 +58,15 @@ public class Persona {
     {
         return this.dni;
     }
+    
+    public void imprimirInformacion()
+    {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Apellido: " + apellido);
+        System.out.println("Domicilio: " + domicilio);
+        System.out.println("Profesion: " + profesion);
+        System.out.println("DNI: " + dni);
+        System.out.println("-------------------------------");
+    }
+     abstract String obtenerInformacionPersona();
 }
