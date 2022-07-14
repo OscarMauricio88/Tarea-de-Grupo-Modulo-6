@@ -25,4 +25,9 @@ public class Deportista extends Persona {
            establecerDni(1322349345);
             }
 
+    @Override
+    String obtenerInformacionPersona() {
+        return "Informacion para Deportista";
+    }
+
 }
