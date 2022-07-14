@@ -18,11 +18,10 @@ public class Doctor extends Persona {
            establecerDomicilio("Tegucigalpa, Col.bendeck");
            establecerDni(1801199345);
            
-           
-           establecerProfesion("Doctor");
-           establecerNombre("Cesae");
-           establecerApellido("Zavala");
-           establecerDomicilio("Elprogreso, Col.Berlin");
-           establecerDni(1801199345);
        }    
+
+    @Override
+    String obtenerInformacionPersona() {
+        return "Informacion para Doctor";
+    }
 }
