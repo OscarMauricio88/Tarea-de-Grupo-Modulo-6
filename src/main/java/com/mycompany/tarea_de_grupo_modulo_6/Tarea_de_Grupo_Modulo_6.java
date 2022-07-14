@@ -5,6 +5,9 @@
 
 package com.mycompany.tarea_de_grupo_modulo_6;
 
+import helpers.Deportista;
+import helpers.Doctor;
+
 /**
  *
  * @author Oscar Mauricio
@@ -12,6 +15,11 @@ package com.mycompany.tarea_de_grupo_modulo_6;
 public class Tarea_de_Grupo_Modulo_6 {
 
     public static void main(String[] args) {
+        Doctor doctor = new Doctor();
+        Deportista deportista = new Deportista();
+        
+        doctor.imprimirInformacion();
+        deportista.imprimirInformacion();
         System.out.println("Hello World!");
     }
 }
