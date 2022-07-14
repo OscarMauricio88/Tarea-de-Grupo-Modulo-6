@@ -30,6 +30,16 @@ public class Persona {
         return this.nombre;
     }
     
+     public void establecerProfesion(String profesion)
+    {
+        this.profesion = profesion;
+    }
+    
+    public String obtenerProfesion()
+    {
+        return this.profesion;
+    }
+    
      public void establecerApellido(String apellido)
     {
         this.apellido = apellido;
@@ -58,4 +68,15 @@ public class Persona {
     {
         return this.dni;
     }
+    
+     public void imprimirInformacion()
+    {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Apellido: " + apellido);
+        System.out.println("Domicilio: " + domicilio);
+        System.out.println("Profesion: " + profesion);
+        System.out.println("DNI: " + dni);
+        System.out.println("-------------------------------");
+    }
+     abstract String obtenerInformacionPersona();
 }
