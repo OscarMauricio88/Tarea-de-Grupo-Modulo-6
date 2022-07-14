@@ -30,6 +30,16 @@ public class Persona {
         return this.nombre;
     }
     
+     public void establecerProfesion(String profesion)
+    {
+        this.profesion = profesion;
+    }
+    
+    public String obtenerProfesion()
+    {
+        return this.profesion;
+    }
+    
      public void establecerApellido(String apellido)
     {
         this.apellido = apellido;
@@ -39,6 +49,7 @@ public class Persona {
     {
         return this.apellido;
     }
+    
      public void establecerDomicilio(String domicilio)
     {
         this.domicilio = domicilio;
