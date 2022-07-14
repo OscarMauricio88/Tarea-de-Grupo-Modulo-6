@@ -24,6 +24,6 @@ public class Tarea_de_Grupo_Modulo_6 {
         
         System.out.println(deportista.obtenerInformacionPersona());
         deportista.imprimirInformacion();
-        
+        System.out.println("");
     }
 }
